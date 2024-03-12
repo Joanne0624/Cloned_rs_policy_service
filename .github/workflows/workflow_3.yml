@@ -15,7 +15,7 @@ jobs:
       - name: Check Out
         uses: actions/checkout@v4
         with:
-          repository: TuneDemo/rs_policy_service
+          repository: Joanne0624/Cloned_rs_policy_service
           token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Set up JDK 17
